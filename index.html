@@ -236,7 +236,7 @@
                             <p>This playbook is a collection of windows 2012 CIS compliance roles. Group Policy settings may override these local settings. When the role's "remediate" variable is set to "YES", the role will try to remediate the server's setting(s) according to the CIS standards. Each role has a defaults/main.yml file which can be used to disable specific CIS items (i.e."execute_<cis task #>") from executing. The default value in the defaults/main.yml for these CIS item variables (i.e. "execute_<cis task #>") is set to "YES". The value "YES" means that the CIS item will execute at run time. Set the value to "NO" if you want to skip this CIS item in question from executing.</p>
                             <ul class="list-inline item-details">
                                 <li>github project link:
-                                    <strong><a href="https://github.com/rwilliam4444/ansible-collection-compliance-windows-2012">Start github</a>
+                                    <strong><a href="https://github.com/rwilliam4444/ansible-collection-compliance-windows-2012">Start github project link</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -265,7 +265,7 @@
                             <p>This playbook is a collection of windows 2016 CIS compliance roles. Group Policy settings may override these local settings. When the role's "remediate" variable is set to "YES", the role will try to remediate the server's setting(s) according to the CIS standards. Each role has a defaults/main.yml file which can be used to disable specific CIS items (i.e."execute_<cis task #>") from executing. The default value in the defaults/main.yml for these CIS item variables (i.e. "execute_<cis task #>") is set to "YES". The value "YES" means that the CIS item will execute at run time. Set the value to "NO" if you want to skip this CIS item in question from executing.</p>
                             <ul class="list-inline item-details">
                                 <li>github project link:
-                                    <strong><a href="https://github.com/rwilliam4444/ansible-collection-compliance-windows-2016">Start github</a>
+                                    <strong><a href="https://github.com/rwilliam4444/ansible-collection-compliance-windows-2016">Start github project link</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -294,7 +294,7 @@
                             <p>This role will check the server's drives (C, D, E, & F), at the root level, for a directory called eventlogs. If none are found then a folder will be created on the C: drive called c:\eventlogs. The role will also ensure that the necessary ZIP utility file is on the server. The role will then zip the system, security and application event logs files (archive*.evtx) inside the previously mentioned folder called eventlogs. Once the files are zipped, then the playbook will remove the archive*.evtx files.</p>
                             <ul class="list-inline item-details">
                                 <li>github project link:
-                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-event-log-archiver-zip-move-to-eventlogs-folder">Start github</a>
+                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-event-log-archiver-zip-move-to-eventlogs-folder">Start github project link</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -323,7 +323,7 @@
                             <p>The windows event log mngr role will check the server's drives (C, D, E, & F), at the root level, for a directory called eventlogs. If none are found then a folder will be created on the C: drive called c:\eventlogs. The role will also ensure that the necessary ZIP utility file is on the server. The role will then export the system, security and application event logs to a CSV file inside the noted folder previously mentioned. It will then ZIP up the CSV files and then clear the system, security and application event logs. The role will remove the CSV files and it will delete any zipped files older than the noted number_days_before_deletion variable. The default value for this variable is 270 days.</p>
                             <ul class="list-inline item-details">
                                 <li>github project link:
-                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-windows-event-log-manager">Start github</a>
+                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-windows-event-log-manager">Start github project link</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -352,7 +352,7 @@
                             <p>This Firewall Policy Role was based off the CIS specs for 2012 servers. This role covers the "Windows Firewall With Advanced Security" CIS section only. The checks and remediation commands are for local settings only. Group Policy settings may override these settings. When the "remediate" variable is set to "YES", the role will try to remediate the server's setting(s) accoridng to the CIS standards. The defaults/main.yml file can be used to disable specific CIS items (i.e. "execute_<cis task #>") from executing. The default value in the defaults/main.yml for these CIS item variables (i.e. "execute_<cis task #>") is set to "YES". The value "YES" means that the CIS item will execute at run time. Set the value to "NO" if you want to skip this CIS item in question from executing.</p>
                             <ul class="list-inline item-details">
                                 <li>github project link:
-                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-compliance-windows-firewall-policy-2012">Start github</a>
+                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-compliance-windows-firewall-policy-2012">Start github project link</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -381,7 +381,7 @@
                             <p>This System Policy Role was based off the CIS specs for 2012 servers. This role covers the "System" CIS section only. The checks and remediation commands are for local settings only. Group Policy settings may override these settings. When the "remediate" variable is set to "YES", the role will try to remediate the server's setting(s) accoridng to the CIS standards. The defaults/main.yml file can be used to disable specific CIS items (i.e. "execute_<cis task #>") from executing. The default value in the defaults/main.yml for these CIS item variables (i.e. "execute_<cis task #>") is set to "YES". The value "YES" means that the CIS item will execute at run time. Set the value to "NO" if you want to skip this CIS item in question from executing.</p>
                             <ul class="list-inline item-details">
                                 <li>github project link:
-                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-compliance-windows-system-policy-2012">Start github</a>
+                                    <strong><a href="https://github.com/rwilliam4444/ansible-role-compliance-windows-system-policy-2012">Start github project link</a>
                                     </strong>
                                 </li>
                             </ul>
